@@ -682,7 +682,7 @@
   // height: 1440px;
   // padding: 150px 0 150px 397px;
   padding: vw(150, 1920) vw(100, 1920) vw(150, 1920) vw(397, 1920);
-  background: #2d2d2d;
+  background: #FFFFFF;
   position: relative;
   @include to(1440px) {
     padding: vw(100, 1440) vw(70, 1440) vw(100, 1440) vw(281, 1440);
@@ -741,7 +741,7 @@
       font-size: 64px;
       line-height: 120%;
       text-transform: uppercase;
-      color: #ffffff;
+      color: #2D2D2D;
       @include to(1440px) {
         font-size: 44px;
       }
@@ -769,7 +769,7 @@
     .swiper-button-arrow {
       width: 90px;
       height: 56px;
-      stroke: #f0f0f0;
+      stroke: #2D2D2D;
       stroke-width: 3px;
       cursor: pointer;
       transition: $transition-fuction;
@@ -846,7 +846,7 @@
       line-height: 100%;
       letter-spacing: 0.01em;
       text-transform: uppercase;
-      color: #cbd2c5;
+      color: #75917A;
       margin: 50px 0 15px 0;
       @include to(1440px) {
         font-size: 14px;
@@ -864,7 +864,7 @@
         font-weight: 500;
         font-size: 24px;
         line-height: 130%;
-        color: #f0f0f0;
+        color: #435055;
         // width: 400px;
         width: 78%;
         display: -webkit-box;

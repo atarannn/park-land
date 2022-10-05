@@ -24,12 +24,12 @@ const locoScroll = new LocomotiveScroll({
   inertia: 1.1,
 });
 global.locoScroll = locoScroll;
-window.locoScroll = locoScroll;
-window.locoScroll.update();
+// window.locoScroll = locoScroll;
+// window.locoScroll.update();
 // disableScroll();
-setTimeout(() => {
-  window.locoScroll.update();
-}, 2000);
+// setTimeout(() => {
+//   window.locoScroll.update();
+// }, 2000);
 /*
  * smooth scroll end
  */

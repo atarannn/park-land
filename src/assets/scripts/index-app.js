@@ -60,8 +60,7 @@ formsTel.forEach((form) => {
         $form,
         showSuccessMessage: false,
         successAction: () => {
-          const backdrop = document.querySelector('.form-gratitude');
-          gsap.to(backdrop, { autoAlpha: 1 });
+          window.location.href = 'message';
         },
         $btnSubmit: $form.querySelector('[data-btn-submit]'),
         fields: {
@@ -266,7 +265,7 @@ forms.forEach((form) => {
         $form,
         showSuccessMessage: false,
         successAction: () => {
-          document.querySelector('.backdrop').classList.add('is-hidden-form');
+          window.location.href = 'message';
         },
         $btnSubmit: $form.querySelector('[data-btn-submit]'),
         fields: {
